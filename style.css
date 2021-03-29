@@ -1,12 +1,36 @@
 .main{
-	position: relative;
-	top: 100px;
-	left: 200px;
-	width: 400px;
+	width: 1000px;
 	height: 600px;
-	background: url(forest.png);
+	border: 1px solid grey; 
+	position: relative;
 }
-input{
-	width: 200px;
-	
+.menu{
+	width: 1000px;
+	height: 100px;
+	background: #1b5589;
+}
+img{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+}
+ol{
+	list-style-type: none;
+	position: relative;
+	top: 30px;
+	margin: 0px;
+	left: 80px;
+}
+ol li{
+	display: inline-block;
+	margin: 10px;
+}
+ol li a{
+	text-decoration: none;
+	color: #7090b1;
+	font-family: Arial;
+}
+ol li a:hover{
+	color: white;
 }
